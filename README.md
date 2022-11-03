@@ -36,7 +36,7 @@ Ahora lo que hago es ejecutar docker-compose up y en el navegador buscar **local
 
 En este localhost/sitio1 aparece por pantalla <h1>hola mundo</h1>
 
-![hola mundo: ](/cod3stealer/proyectoAPACHE/a.png)
+![hola mundo: ](/cod3stealer/proyectoAPACHE/cap/a.png)
 
 Por otro lado, en localhost/info.php debería aparecer una tabla de información con toda la sálida de la función `phpinfo()`
 
