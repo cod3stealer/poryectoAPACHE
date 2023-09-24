@@ -63,45 +63,41 @@ Lo próximo que se debe hacer es ir al apartado de volúmenes del VCode y selecc
 Una vez allí, se puede descargar toda la configuración necesaria a la carpeta del server si así se quiere.
 
 
+# Primeros intentos de Mermaid, práctica de COD // DAM1
+## Diagrama Simple
+```
+graph TD;
+ A-->B;
+ B-->C;
+ C-->D;
+ C-->E;
+```
+
+## Flowchart
 ```
 flowchart LR
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+A[Cuadrado entre corchete] -->|texto entre medios va entre palos| B(Circulao entre parentesis)
+B --> C{Decision va entre llaves}
+C -->|C puede ir a Resultado 1| D[Resultado 1]
+C -->|o C puede ir a Resultado 2| E[Resultado 2]
 ```
 
-```mermaid
+Prueba con ejemplo de un código `a++;print(a);`
+```
 flowchart LR
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+A[variable a = 0] -->|suma unitaria| B(print(a))
+B --> C[Resultado final = 1]
 ```
 
+## Prueba con diagrama secuencial
 ```
 sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
+Santi->>Damian: Damian, ponme una buena nota porfa
+Note right of Santi: vamo a ve si me pone diez
+Damian-->>Santi: venga va
+Santi->>Damian: viva messi
 ```
 
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
 
